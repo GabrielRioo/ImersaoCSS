@@ -10,13 +10,18 @@
 #### Treinamento com Jogos:
 * https://flukeout.github.io/ - Seletores
 * https://flexboxfroggy.com/#pt-br - Flexbox
+* https://cssgridgarden.com/ - Grid
+* https://fontawesome.com/ - Icones Gratuitos
+   * Icons -> Free -> Copy `<i class="fab...">`
+   * Perfil -> Kits -> CLica no numero -> Copy Script
 
 
 AULA | LINK | ANOTAÇÕES
 :---:|:---:|:---
 01 | [Imersão CSS Aula 1 - Página pessoal](https://www.youtube.com/watch?time_continue=467&v=jf_JVto07qg&feature=emb_logo) | - Para o `Display: Flex;` - Faz todo mundo virar coluna.<br> Usar em conjunto: <br> `justify-content: space-between;` - espaço nas do meio <br> `justify-content: space-around;` - espaço na coluna inteira <br> `font-style: italic` <br> **Unidade de Medida:** <br> VW - Viewport Width = 100% do total da tela <br> VH - Viewport Height = 100% do total da tela <br> Melhor que usar o % <br> **Assistir aulas:** <br> [Box-model e box-shadow no CSS sem segredos #AluraMais](https://www.youtube.com/watch?v=pZrAG27KZSg) <br> [Box-sizing no CSS sem segredos #AluraMais](https://www.youtube.com/watch?v=Q33ojlocKc0)
 02 | [#ImersaoCSS Aula 2 - Sites Responsivos](https://www.youtube.com/watch?time_continue=1&v=eGezltWKCbE&feature=emb_logo) | `* {}` - Reset do CSS. Resetar os padroes do CSS , controla todo css. <br> Ex: `* {margin: 0; padding: 0;}` <br> **`header {height: 100vh; display: flex;}`**- deixa o header da altura da tela do PC <br> `justify-content: center;` - Alinha horizontalmente <br> **`align-items: center;`** - Alinha verticalmente <br> `position: fixed;` - Position mexe no eixo Z <br> `top, left, right, bottom` - Só funciona se o position tiver declarado. <br> `top: 0` - Cola o container no topo <br> `<a>` - é um elemento **inline**, nao quebra linha, e nao é um bloco <br> Elementos que não são blocos o padding nao funciona <br> `display: block` - tranforma em bloco. <br> `<meta name="viewport"...` - Se torna responsivo para dispositivos móveis. <br> **BreackPoint:** <br> `@media(min-width: 400px) {` - Condição, como se fosse um `IF` <br> `body {` <br> `font-size: 14pt; } }` <br> **Unidade de Medida:** <br> EM - Unidade relativa. Ajuda a fazer fontes responsivas <br> Exemplo: 2em = 2 vezes o valor padrao. <br> _Deixar as fontes fixas so para o Body, e usar no restante, as relativas._
-03 | [Imersão CSS Aula03 - Colunas e Linhas](https://www.youtube.com/watch?time_continue=3&v=mHC1k-18lQI&feature=emb_logo) | Google Fontes. | **`display: grid;`** - Grade <br> Propriedades do Grid: <br> `gap` - define o espaçamento entre qualquer linha ou coluna. <br> `grid-template-columns: 200px 300px 200px` - Quantidade de colunas, e seus respectivos tamanhos <br> `grid-template-columns: repeat(3, 240px)` - Função para repetiçao de colunas <br> `justify-content: center` - Centralizar
+03 | [Imersão CSS Aula03 - Colunas e Linhas](https://www.youtube.com/watch?time_continue=3&v=mHC1k-18lQI&feature=emb_logo) | Google Fontes.<br> **`display: grid;`** - Grade <br> Propriedades do Grid: <br> `gap` - define o espaçamento entre qualquer linha ou coluna. <br> `grid-template-columns: 200px 300px 200px` - Quantidade de colunas, e seus respectivos tamanhos <br> `grid-template-columns: repeat(3, 240px)` - Função para repetiçao de colunas <br> `justify-content: center` - Centralizar <br> `height: calc(100vh - 3em - 48px);` <br> `object-fit: contain;` - Deixa as imagens no tamanho padrao, desrespeitando qualquer modificação css <br> `object-fit: cover;` - Ocupam o mesmo espaço e nao deformam as imagens
+04 | [Alura ImersaoCSS Aula04 v1](https://www.youtube.com/watch?v=FQt4WK0U4pM&feature=emb_logo) | `min-height: 100vh` - Altura minima <br>
 
 PROPRIEDADES | PARAMETROS
 :---:|:---
@@ -29,3 +34,4 @@ PROPRIEDADES | PARAMETROS
 `flex-flow` | `flex-direction` e `flex-wrap` são usadas quase sempre juntas, entao foi criado esta, para junção delas duas. <br> ex: `flex-flow: row wrap;`
 `align-content` | `flex-start` - Linhas agrupadas no topo do container <br> `flex-end` - Linhas são agrupadas no fundo do container  <br> `center` - Linhas agrupadas no centro vertical do container <br> `space-between` - linhas posicionadas com espaços iguais entre elas. <br> `space-around` - Linhas são posicionadas com espaço igual em torno delas <br> `stretch` - linhas se esticam para preencher o container
 
+18:54
