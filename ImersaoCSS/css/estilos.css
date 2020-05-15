@@ -78,11 +78,16 @@ body {
     line-height: 1.8em;
   }
 
+  .contato,
   .portfolio {
     padding: 2em;
-    height: 100vh;  
+    min-height: 100vh;  
+    object-fit: cover;
+    object-position: left bottom;
+  
   }
 
+  .contato h2,
   .portfolio h2 {
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
@@ -93,10 +98,7 @@ body {
   .portfolio .grid {
     display: grid;
     gap: 1em;
-    align-content: center;
-    justify-content: center;
-    height: calc(100vh - 3em - 48px);
-    background-color: tomato;
+    
   }
 
   @media(min-width: 710px) {
@@ -109,7 +111,10 @@ body {
   @media(min-width: 1040px) {
     .portfolio .grid {
       grid-template-columns: 300px 330px 300px;
+      align-content: center;
       justify-content: center;
+      height: calc(100vh - 3em - 48px);
+      
     }
   }
 
@@ -119,7 +124,18 @@ body {
 
   .img-portfolio {
     width: 300px;
-    height: 200px;
+    height:200px;
+    border-radius: 5px;
   }
+
+  .contato a {
+    color: whitesmoke;
+    font-size: 3em;
+  }
+
+  .contato a:hover {
+    text-decoration: none;
+  }
+
 
   
