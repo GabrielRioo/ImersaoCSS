@@ -9,7 +9,7 @@
 body {
     background-image: url('../img/fundo.jpg');
     background-size: auto 100vh;
-    font-family: Arial;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
     font-size: 12pt;
   }
@@ -68,14 +68,58 @@ body {
 
   .site-title {
     font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
   }
   
   .site-subtitle {
     font-style: italic;
-    
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .portfolio {
+    padding: 2em;
+    height: 100vh;  
+  }
+
+  .portfolio h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+
+  .portfolio .grid {
+    display: grid;
+    gap: 1em;
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 3em - 48px);
+    background-color: tomato;
+  }
+
+  @media(min-width: 710px) {
+    .portfolio .grid {
+      grid-template-columns: 300px 330px;
+      justify-content: center;
+    }
+  }
+
+  @media(min-width: 1040px) {
+    .portfolio .grid {
+      grid-template-columns: 300px 330px 300px;
+      justify-content: center;
+    }
+  }
+
+  .portfolio figure {
+    text-align: center;
   }
 
   .img-portfolio {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 200px;
   }
+
+  
