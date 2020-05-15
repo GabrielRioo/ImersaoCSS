@@ -11,6 +11,14 @@ body {
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
+    font-size: 12pt;
+  }
+
+  /* Se a tela tiver pelo menos 400px, vai carregar esses estilos: */
+  @media (min-width: 400px) {
+    body {
+      font-size: 14pt;
+    }
   }
 
   header {
@@ -26,6 +34,12 @@ body {
     position: fixed;
     width: 100vw;
     top: 0
+  }
+
+  .menu a {
+    /* background-color: aquamarine; */
+    display: block;
+    padding: 10px 40px;
   }
   
   .menu ul {
@@ -50,6 +64,10 @@ body {
   .site-subtitle {
     color: whitesmoke;
     text-align: center;
+  }
+
+  .site-title {
+    font-size: 2em;
   }
   
   .site-subtitle {
