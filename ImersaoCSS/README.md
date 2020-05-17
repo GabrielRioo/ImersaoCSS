@@ -6,14 +6,15 @@
    * `flex`: Quando não importa a quantidade certa de colunas.
    * `grid`: Quando sabe quantas colunas irão ter.
 * Os testes geralmente são feitos no DEV Tools (F12)
+* https://fontawesome.com/ - Icones Gratuitos
+   * Icons -> Free -> Copy `<i class="fab...">`
+   * Perfil -> Kits -> CLica no numero -> Copy Script
 ---
 #### Treinamento com Jogos:
 * https://flukeout.github.io/ - Seletores
 * https://flexboxfroggy.com/#pt-br - Flexbox
 * https://cssgridgarden.com/ - Grid
-* https://fontawesome.com/ - Icones Gratuitos
-   * Icons -> Free -> Copy `<i class="fab...">`
-   * Perfil -> Kits -> CLica no numero -> Copy Script
+
 
 
 AULA | LINK | ANOTAÇÕES
