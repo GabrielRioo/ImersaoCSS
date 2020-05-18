@@ -34,5 +34,14 @@ PROPRIEDADES | PARAMETROS
 `flex-wrap` | `nowrap` - Todos os itens são apertados em uma unica linha <br> `wrap` - Itens se separam em linhas adicionais <br> `wrap-reverse` - itens se separam em linhas adicionais em reversos.
 `flex-flow` | `flex-direction` e `flex-wrap` são usadas quase sempre juntas, entao foi criado esta, para junção delas duas. <br> ex: `flex-flow: row wrap;`
 `align-content` | `flex-start` - Linhas agrupadas no topo do container <br> `flex-end` - Linhas são agrupadas no fundo do container  <br> `center` - Linhas agrupadas no centro vertical do container <br> `space-between` - linhas posicionadas com espaços iguais entre elas. <br> `space-around` - Linhas são posicionadas com espaço igual em torno delas <br> `stretch` - linhas se esticam para preencher o container
+`display: grid` | Cria grids (grades)
+`grid-template-columns` | `20% 20% 20%` - Cria colunas com 20%
+`grid-template-rows` | `20% 20% 20%` - Cria linhas com 20%
+`grid-column-start` | `inteiro` - Posição do grid inicial. Exemplo: 3 grids. inteiro: 3. Começa no grid 3
+`grid-column-end` | `inteiro` - Preeche ate o final 
+`grid-column-start` | `span inteiro` - Completa a coluna e so aceita numeros inteiros
+`grid-column` | `2 / 4` = posição 2 e terminar na linha 4 - Junção do `start` com `end` 
+`grid-row-start:` | Posição inicial na linha.
+`grid-row:` | `2 / 6` - Junção do `start` com `end`
 
 18:54
