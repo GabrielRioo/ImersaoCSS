@@ -43,5 +43,9 @@ PROPRIEDADES | PARAMETROS
 `grid-column` | `2 / 4` = posição 2 e terminar na linha 4 - Junção do `start` com `end` 
 `grid-row-start:` | Posição inicial na linha.
 `grid-row:` | `2 / 6` - Junção do `start` com `end`
+`grid-area:` | `1 / 2 / 3 / 4` <br> Primeiro: Linha. <br> Segundo: Coluna. <br> Terceiro: Completar por coluna. <br> Quarto: Completar por linha
+`order` | `inteiro(negativo ou positivo)` - Ordem de tal classe ou ID
+`grid-template-columns:` | `repeat(8, 12.5%)` <br> `tamanho` <br> `porcentagem` <br> `flex` <br> `max-content` <br> `min-content` <Br> Exemplo: `grid-template-columns: repeat(3, 100px 3em 40%)` <br> `grid-template-columns: 1fr 5fr` - fracionario: 1/6 e 5/6
+``
 
 18:54
