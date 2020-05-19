@@ -33,13 +33,22 @@ body {
     background-color: white;
     position: fixed;
     width: 100vw;
-    top: 0
+    top: 0;
+    z-index: 1;
   }
 
+  
   .menu a {
     /* background-color: aquamarine; */
     display: block;
     padding: 10px 40px;
+    transition: background-color 1s, color .2s;
+  }
+
+  .menu a:active, 
+  .menu a:hover{
+    background-color: teal;
+    color: whitesmoke ;
   }
   
   .menu ul {
@@ -60,6 +69,25 @@ body {
     text-decoration: underline;
   }
   
+  .titulo {
+    transform: scale(0.2) translateY(50vh);
+    opacity: 0;
+
+    animation: ease 2s animacaoTitulo forwards;
+  }
+
+  @keyframes animacaoTitulo{
+    /* 0% {  estado inicial 
+
+    } */
+    100% { /*estado final */
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+
   .site-title, 
   .site-subtitle {
     color: whitesmoke;
@@ -78,21 +106,36 @@ body {
     line-height: 1.8em;
   }
 
+  .sobre,
   .contato,
   .portfolio {
     padding: 2em;
     min-height: 100vh;  
-    object-fit: cover;
-    object-position: left bottom;
   
   }
 
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .sobre h2,
   .contato h2,
   .portfolio h2 {
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
     font-size: 1.2em;
     margin-bottom: 1.5em;
+  }
+
+  .sobre p {
+    color: white;
+    text-indent: 1.5em;
+    margin-bottom: 1.4em;
+    text-align: justify;
   }
 
   .portfolio .grid {
@@ -126,15 +169,30 @@ body {
     width: 300px;
     height:200px;
     border-radius: 5px;
+    object-fit: cover;
+    object-position: left bottom;
+    transform: scale(1);
+    transition: transform 500ms;
+  }
+
+  .img-portfolio:hover {
+    transform: scale(1.2) rotateX(30deg);
+  }
+
+  .contato .icons {
+    text-align: center;
   }
 
   .contato a {
     color: whitesmoke;
     font-size: 3em;
+    transition: text-shadow .5s;
   }
 
+  .contato a:active,
   .contato a:hover {
     text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.3);
   }
 
 
