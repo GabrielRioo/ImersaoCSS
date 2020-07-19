@@ -1,4 +1,7 @@
 ### IMERSÃO CSS
+
+![portfolio](portfolio.png)
+
 * Algumas anotações de informações que eu não conhecia ou usava pouco.
 * Segurar alt sobre uma tag no **VS Code** + setinha para cima ou para baixo, movimenta a tag toda :exploding_head::scream:
 * **Mobile-First** - Sempre começar a fazer a pagina como se fosse pra Movel, depois ir aumentando.
